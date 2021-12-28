@@ -1,0 +1,131 @@
+<mxfile host="app.diagrams.net" modified="2021-12-28T16:21:06.338Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="qe17H8JKAx9XxoYnG6I5" version="16.1.0" type="github" pages="4">
+  <diagram name="ConexionMotor" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
+    <mxGraphModel dx="868" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style=";html=1;" />
+        <mxCell id="1" style=";html=1;" parent="0" />
+        <mxCell id="Ed7nsnH9rYDAnsbSHyD--5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="Ed7nsnH9rYDAnsbSHyD--3" target="Ed7nsnH9rYDAnsbSHyD--4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ed7nsnH9rYDAnsbSHyD--10" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="821.25" y="440" width="97.5" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="Ed7nsnH9rYDAnsbSHyD--4" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;" parent="Ed7nsnH9rYDAnsbSHyD--10" vertex="1">
+          <mxGeometry y="37" width="97.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ed7nsnH9rYDAnsbSHyD--9" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;Arduino&lt;/b&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="Ed7nsnH9rYDAnsbSHyD--10" vertex="1">
+          <mxGeometry x="8.75" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ed7nsnH9rYDAnsbSHyD--12" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="970" y="445" width="350" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="Ed7nsnH9rYDAnsbSHyD--1" value="M" style="verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=ellipse;aspect=fixed;fontSize=35;" parent="Ed7nsnH9rYDAnsbSHyD--12" vertex="1">
+          <mxGeometry x="290" y="32" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ed7nsnH9rYDAnsbSHyD--7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="Ed7nsnH9rYDAnsbSHyD--12" source="Ed7nsnH9rYDAnsbSHyD--2" target="Ed7nsnH9rYDAnsbSHyD--1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ed7nsnH9rYDAnsbSHyD--8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Ed7nsnH9rYDAnsbSHyD--12" source="Ed7nsnH9rYDAnsbSHyD--2" target="Ed7nsnH9rYDAnsbSHyD--1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ed7nsnH9rYDAnsbSHyD--2" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.electro-mechanical.two_way_contact;" parent="Ed7nsnH9rYDAnsbSHyD--12" vertex="1">
+          <mxGeometry x="80" y="47" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ed7nsnH9rYDAnsbSHyD--6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="Ed7nsnH9rYDAnsbSHyD--12" source="Ed7nsnH9rYDAnsbSHyD--3" target="Ed7nsnH9rYDAnsbSHyD--2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ed7nsnH9rYDAnsbSHyD--3" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.electro-mechanical.relay_contacts;" parent="Ed7nsnH9rYDAnsbSHyD--12" vertex="1">
+          <mxGeometry y="50" width="60" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Ed7nsnH9rYDAnsbSHyD--11" value="Interruptor Open/Close" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=18;" parent="Ed7nsnH9rYDAnsbSHyD--12" vertex="1">
+          <mxGeometry x="40" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ed7nsnH9rYDAnsbSHyD--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.96;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=18;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ed7nsnH9rYDAnsbSHyD--14" target="Ed7nsnH9rYDAnsbSHyD--4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ed7nsnH9rYDAnsbSHyD--14" value="LAN" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="630" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3fX0ocp2GPfWwHJixSrR" name="Data">
+    <mxGraphModel dx="868" dy="1311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="2H_ZKY58X9aCm0sqUemA-0" />
+        <mxCell id="2H_ZKY58X9aCm0sqUemA-1" parent="2H_ZKY58X9aCm0sqUemA-0" />
+        <mxCell id="2H_ZKY58X9aCm0sqUemA-2" value="DATA 01&lt;br style=&quot;font-size: 24px&quot;&gt;Estación.ID&lt;br style=&quot;font-size: 24px&quot;&gt;Nombre&lt;br style=&quot;font-size: 24px&quot;&gt;Plataforma.Cantidad&lt;br style=&quot;font-size: 24px&quot;&gt;Plataforma.ID&lt;br style=&quot;font-size: 24px&quot;&gt;Grafica" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=24;fontFamily=Helvetica;" parent="2H_ZKY58X9aCm0sqUemA-1" vertex="1">
+          <mxGeometry x="100" y="-405" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="2H_ZKY58X9aCm0sqUemA-3" value="DATA 02&lt;br style=&quot;font-size: 24px&quot;&gt;DireccionMAC&lt;br style=&quot;font-size: 24px&quot;&gt;Estacion.ID&lt;br style=&quot;font-size: 24px&quot;&gt;Plataforma.ID&lt;br style=&quot;font-size: 24px&quot;&gt;Estado" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=24;fontFamily=Helvetica;" parent="2H_ZKY58X9aCm0sqUemA-1" vertex="1">
+          <mxGeometry x="400" y="-405" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="2H_ZKY58X9aCm0sqUemA-4" value="DATA 03&lt;br style=&quot;font-size: 24px&quot;&gt;Evento.ID&lt;br style=&quot;font-size: 24px&quot;&gt;Estacion.ID&lt;br style=&quot;font-size: 24px&quot;&gt;Plataforma.ID&lt;br&gt;Fecha.Inicio&lt;br&gt;Fecha.Termina&lt;br&gt;Hora.Inicio&lt;br&gt;Hora.Termina&lt;br style=&quot;font-size: 24px&quot;&gt;Estado" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=24;fontFamily=Helvetica;" parent="2H_ZKY58X9aCm0sqUemA-1" vertex="1">
+          <mxGeometry x="630" y="-405" width="170" height="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6-XJ-OarZyxuyhE02tvs" name="Servidor">
+    <mxGraphModel dx="868" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="PrDCxp2uVufEPcPrWEyi-0" />
+        <mxCell id="PrDCxp2uVufEPcPrWEyi-1" parent="PrDCxp2uVufEPcPrWEyi-0" />
+        <mxCell id="PrDCxp2uVufEPcPrWEyi-2" value="SERVIDOR&#xa;16 GB. 1T, 4 LAN&#xa;Centos Stream" style="ellipse" vertex="1" parent="PrDCxp2uVufEPcPrWEyi-1">
+          <mxGeometry x="460" y="130" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrDCxp2uVufEPcPrWEyi-3" value="MV01" style="rounded=1;" vertex="1" parent="PrDCxp2uVufEPcPrWEyi-1">
+          <mxGeometry x="355" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PrDCxp2uVufEPcPrWEyi-4" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" source="PrDCxp2uVufEPcPrWEyi-2" target="PrDCxp2uVufEPcPrWEyi-3" parent="PrDCxp2uVufEPcPrWEyi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrDCxp2uVufEPcPrWEyi-5" value="nagios" style="rounded=1;" vertex="1" parent="PrDCxp2uVufEPcPrWEyi-1">
+          <mxGeometry x="355" y="320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PrDCxp2uVufEPcPrWEyi-6" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" source="PrDCxp2uVufEPcPrWEyi-3" target="PrDCxp2uVufEPcPrWEyi-5" parent="PrDCxp2uVufEPcPrWEyi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrDCxp2uVufEPcPrWEyi-7" value="MV02" style="rounded=1;" vertex="1" parent="PrDCxp2uVufEPcPrWEyi-1">
+          <mxGeometry x="475" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PrDCxp2uVufEPcPrWEyi-8" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" source="PrDCxp2uVufEPcPrWEyi-2" target="PrDCxp2uVufEPcPrWEyi-7" parent="PrDCxp2uVufEPcPrWEyi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrDCxp2uVufEPcPrWEyi-9" value="mongo db" style="rounded=1;" vertex="1" parent="PrDCxp2uVufEPcPrWEyi-1">
+          <mxGeometry x="475" y="320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PrDCxp2uVufEPcPrWEyi-10" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" source="PrDCxp2uVufEPcPrWEyi-7" target="PrDCxp2uVufEPcPrWEyi-9" parent="PrDCxp2uVufEPcPrWEyi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrDCxp2uVufEPcPrWEyi-11" value="MV03" style="rounded=1;" vertex="1" parent="PrDCxp2uVufEPcPrWEyi-1">
+          <mxGeometry x="595" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PrDCxp2uVufEPcPrWEyi-12" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" source="PrDCxp2uVufEPcPrWEyi-2" target="PrDCxp2uVufEPcPrWEyi-11" parent="PrDCxp2uVufEPcPrWEyi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrDCxp2uVufEPcPrWEyi-13" value="apache&#xa;node.js" style="rounded=1;" vertex="1" parent="PrDCxp2uVufEPcPrWEyi-1">
+          <mxGeometry x="595" y="320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PrDCxp2uVufEPcPrWEyi-14" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" source="PrDCxp2uVufEPcPrWEyi-11" target="PrDCxp2uVufEPcPrWEyi-13" parent="PrDCxp2uVufEPcPrWEyi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2ppPDXJrP_5WPOUc_W4h" name="claseArduino">
+    <mxGraphModel dx="868" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="Ocx3cPU0YFXCbf2FQ7B5-0" />
+        <mxCell id="Ocx3cPU0YFXCbf2FQ7B5-1" parent="Ocx3cPU0YFXCbf2FQ7B5-0" />
+        <mxCell id="Ocx3cPU0YFXCbf2FQ7B5-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Arduino&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ state: boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ mac: string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ action: boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ openDoor(): boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ closeDoor(): boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ readState(): boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setServer(mac): null&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getAction(mac): boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ postState(mac): null&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="Ocx3cPU0YFXCbf2FQ7B5-1">
+          <mxGeometry x="360" y="200" width="160" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
