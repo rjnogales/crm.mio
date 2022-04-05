@@ -25,7 +25,7 @@ static byte mymac[] = { 0x74,0x69,0x69,0x2D,0x30,0x31 };
 byte Ethernet::buffer[700];
 unsigned long timer;
 
-const char website[] PROGMEM = "192.168.1.130";
+const char website[] PROGMEM = "192.168.2.130";
 
 void setup () 
 {

@@ -1,4 +1,4 @@
-' use strict'
+'use strict'
 
 var express = require('express');
 var bodyParser = require('body-parser');
@@ -23,9 +23,14 @@ app.get('/test',(req,res) => {
 });
 
 app.get('/',(req,res) => {
+	let arduinoResponse = {
+		action: "close"
+	}
+	console.log(JSON.stringify(req.headers))
 	res.status(200).send(
-		"<h1>successful API test</h1>"
+		arduinoResponse
 	);
+
 
 });
 
